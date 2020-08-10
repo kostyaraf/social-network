@@ -1,7 +1,9 @@
 import React from 'react'
+import MyPosts from './MyPosts/MyPosts'
+import c from './Profile.module.css'
 
 const Profile = () => (
-  <div className='content'>
+  <div className={c.content}>
     I'm Content
     <div>
       <img
@@ -10,13 +12,7 @@ const Profile = () => (
       />
     </div>
     <div>ava + descrip</div>
-    <div>
-      My post
-      <div>New Posts</div>
-      <div>post 1</div>
-      <div>post 2</div>
-      <div>post 3</div>
-    </div>
+    <MyPosts/>
   </div>
 )
 
