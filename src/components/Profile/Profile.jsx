@@ -3,7 +3,7 @@ import MyPosts from './MyPosts/MyPosts'
 import c from './Profile.module.css'
 
 const Profile = () => (
-  <div className={c.content}>
+  <div>
     I'm Content
     <div>
       <img

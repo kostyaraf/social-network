@@ -3,16 +3,11 @@ import c from './Navbar.module.css'
 
 const Navbar = () => (
   <nav className={c.nav}>
-    <div>
-      <textarea name='' id='' cols='30' rows='10'></textarea>
-      <button>Add Post</button>
-      <button></button>
-    </div>
     <div className={`${c.item} ${c.active}`}>
-      <a href='#'>list 1</a>
+      <a href='/profile'>Profile</a>
     </div>
     <div className={c.item}>
-      <a href='#'>list 2</a>
+      <a href='/dialogs'>Messages</a>
     </div>
     <div className={c.item}>
       <a href='#'>list 3</a>

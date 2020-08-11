@@ -7,6 +7,11 @@ const MyPosts = () => (
     My post
     <div>New Posts</div>
     <div className={c.posts}>
+    <div>
+      <textarea name='' id='' cols='30' rows='10'></textarea>
+      <button>Add Post</button>
+      <button></button>
+    </div>
       <Post/>
       <Post/>
       <Post/>
